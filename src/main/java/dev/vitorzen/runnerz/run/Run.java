@@ -19,10 +19,7 @@ public record Run(
 
         @Positive
         Integer miles,
-        Location location,
-
-        @Version
-        Integer version
+        Location location
 ) {
 
     public Run {
